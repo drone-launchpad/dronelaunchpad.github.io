@@ -16,6 +16,7 @@ Fall 2024
 - **Mudit Lal** - Project Monitor 
 - **Houyu Zhang** - Meeting Leader  
 - **Kevin Ordorica** - Meeting Recorder
+
 ---
 
 ## ✨ **Foreword**  
