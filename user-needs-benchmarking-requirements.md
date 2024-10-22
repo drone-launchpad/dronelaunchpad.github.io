@@ -2,8 +2,8 @@
 
 ---
 
-## 📖 **Overview**  
-Provide a brief introduction to this section. Explain what this page covers and how it fits into the overall project.  
+## 📖 **Problem Statement**  
+The problem we chose to address is that the environment can change unpredictably while operating a drone and hobbyist drones are less equipt to handle extreme weather. This causes the drone to be subjected to hazardous conditions or to get lost. By developing a station to house the drone and communicate data in real-time to the user we hope to minimize the risks involved in operating hobbyist drones. 
 
 ---
 
