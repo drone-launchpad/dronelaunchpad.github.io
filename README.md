@@ -7,7 +7,7 @@
 ---
 
 ## 🛡️ **Overview**  
-The **Automatic Drone Launchpad** is an innovative solution designed to facilitate safe and efficient drone operations. It autonomously reads real-time weather conditions, including **humidity**, and notifies the user whether the current environment is suitable for flight. This launchpad ensures optimal flight safety by providing crucial environmental insights, helping users avoid unnecessary risks.
+The **Drone Launchpad** is an innovative solution designed to facilitate safe and efficient drone operations. It autonomously reads real-time weather conditions, including **humidity**, and notifies the user whether the current environment is suitable for flight. This launchpad ensures optimal flight safety by providing crucial environmental insights, helping users avoid unnecessary risks.
 
 ---
 
