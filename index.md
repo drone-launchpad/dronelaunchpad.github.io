@@ -1,13 +1,6 @@
 # 🚀 **EGR314 Project: Drone Launchpad**  
 ---
 
-## 👥 **Team Members**
-- **Gwen Eging** - Assignment Leader  
-- **Mudit Lal** - Project Monitor 
-- **Houyu Zhang** - Meeting Leader  
-- **Kevin Ordorica** - Meeting Recorder
----
-
 10/23/2024  
 **Arizona State University**  
 *EGR 314 \- 81059*  
@@ -16,6 +9,13 @@ Fall 2024
 
 [Access Team Folder](https://drive.google.com/drive/folders/1gQi6lGEAkhdcD5YIUokNHRumHGqo1o-J?usp=sharing)
 
+---
+
+## 👥 **Team Members**
+- **Gwen Eging** - Assignment Leader  
+- **Mudit Lal** - Project Monitor 
+- **Houyu Zhang** - Meeting Leader  
+- **Kevin Ordorica** - Meeting Recorder
 ---
 
 ## ✨ **Foreword**  
