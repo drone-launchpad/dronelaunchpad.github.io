@@ -6,7 +6,46 @@
 
 1. [Team Goals](#team-goals)  
 2. [Mission Statement](#mission-statement)  
-3. [Appendix](#appendix)  
+3. [Appendix](#appendix)
+
+---
+
+# **Team Organization Charter**
+
+### **Team Goals** {#team-goals}  
+
+1. **Develop a Functional Product**  
+   - Create an **Automatic Drone Launchpad** that fulfills the technical and operational requirements for autonomous drone take-off and landing.
+
+2. **Focus on Practicality**  
+   - Ensure the product is practical for real-world applications by integrating useful features like weather monitoring for flight safety.
+
+3. **Prioritize Safety**  
+   - Implement systems to assess environmental conditions, such as humidity, to inform users whether it is safe to operate the drone.
+
+4. **Ensure Usability through Testing**  
+   - Refine the design through **user testing** to confirm it is intuitive and meets user expectations.
+
+5. **Deliver a Durable Product**  
+   - Build the launchpad with reliable materials to ensure it can withstand **frequent use** and **exposure to various weather conditions**.
+
+### **Mission Statement** {#mission-statement}
+
+Our mission is to revolutionize drone operations by combining safety, automation, and advanced weather analysis. With the Automatic Drone Launchpad, we aim to provide a seamless and intelligent take-off and landing experience for drone enthusiasts. By integrating real-time weather monitoring, including humidity detection, we empower users to make informed flight decisions, ensuring optimal performance and safety.
+
+This project exemplifies how technology can enhance both practicality and innovation, pushing the boundaries of what autonomous systems can achieve. We aspire to inspire a new generation of drone products that are reliable, efficient, and intuitive, making advanced functionality accessible to all users. Our goal is to foster safety awareness while redefining how drones interact with the environment in modern airspace.
+
+---
+## **Presentation**  
+📺 Watch our Checkpoint 1 presentation on YouTube:  
+[![YouTube Presentation](https://img.shields.io/badge/YouTube-Watch-blue?logo=youtube&logoColor=white)](https://www.youtube.com/watch?v=iCSMr5S1n1Q)  
+
+---
+
+# Appendix A: Team Organization {#appendix-a-team-organization}
+
+### **Table of Contents**
+ 
    1. [Appendix A: User Needs, Benchmarking, and Requirements](#appendix-a-user-needs-benchmarking-and-requirements)  
       1. [Identifying User Needs](#identifying-user-needs)  
          1. [Steps Taken](#steps-taken)  
@@ -43,43 +82,7 @@
       2. [Meeting Schedule and Coordination](#meeting-schedule-and-coordination)  
       3. [Roles and Responsibilities](#roles-and-responsibilities)  
       4. [Team Coordination and Accountability](#team-coordination-and-accountability)  
-      5. [Conflict Recognition and Resolution](#conflict-recognition-and-resolution)  
-
----
-
-# **Team Organization Charter**
-
-### **Team Goals** {#team-goals}  
-
-1. **Develop a Functional Product**  
-   - Create an **Automatic Drone Launchpad** that fulfills the technical and operational requirements for autonomous drone take-off and landing.
-
-2. **Focus on Practicality**  
-   - Ensure the product is practical for real-world applications by integrating useful features like weather monitoring for flight safety.
-
-3. **Prioritize Safety**  
-   - Implement systems to assess environmental conditions, such as humidity, to inform users whether it is safe to operate the drone.
-
-4. **Ensure Usability through Testing**  
-   - Refine the design through **user testing** to confirm it is intuitive and meets user expectations.
-
-5. **Deliver a Durable Product**  
-   - Build the launchpad with reliable materials to ensure it can withstand **frequent use** and **exposure to various weather conditions**.
-
-### **Mission Statement** {#mission-statement}
-
-Our mission is to revolutionize drone operations by combining safety, automation, and advanced weather analysis. With the Automatic Drone Launchpad, we aim to provide a seamless and intelligent take-off and landing experience for drone enthusiasts. By integrating real-time weather monitoring, including humidity detection, we empower users to make informed flight decisions, ensuring optimal performance and safety.
-
-This project exemplifies how technology can enhance both practicality and innovation, pushing the boundaries of what autonomous systems can achieve. We aspire to inspire a new generation of drone products that are reliable, efficient, and intuitive, making advanced functionality accessible to all users. Our goal is to foster safety awareness while redefining how drones interact with the environment in modern airspace.
-
----
-## **Presentation**  
-📺 Watch our Checkpoint 1 presentation on YouTube:  
-[![YouTube Presentation](https://img.shields.io/badge/YouTube-Watch-blue?logo=youtube&logoColor=white)](https://www.youtube.com/watch?v=iCSMr5S1n1Q)  
-
----
-
-### Appendix A: Team Organization {#appendix-a-team-organization}
+      5. [Conflict Recognition and Resolution](#conflict-recognition-and-resolution) 
 
 # **User Needs, Benchmarking, and Requirements**
 ![image caption](https://github.com/omniscient-wizardry/omniscient-wizardy.github.io/blob/main/Images/benchmark1.jpg)
