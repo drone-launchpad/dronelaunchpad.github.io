@@ -1,4 +1,4 @@
-# 🚀 **EGR314 Project: Drone Launchpad**  
+# 🚀 **The Drone Launchpad**  
 ---
 
 10/23/2024  
@@ -20,14 +20,11 @@ Fall 2024
 ---
 
 ## ✨ **Foreword**  
-Welcome to the **Drone Launchpad** project, a culmination of our work for EGR314 at Arizona State University (ASU). This platform supports drones by providing a reliable, autonomous take-off and landing solution.  
-Navigate through the links below to explore our project journey, from ideation to final implementation.  
+Welcome to the **Drone Launchpad** project. The goal of the Drone Launchpad is to allow the drone and the owner to understand their environment without have the need to directly interact with it. The launchpad has its own set of sensors to allow it to collect data which is then utilised to decide if the environment is flight worthy or not.  
 
 ---
 
-## 📂 **Table of Contents**
-
-### 🛠️ Project Documentation  
+## 🛠️ Project Documentation  
 - [👥 Team Organization](./team-organization.md)  
 - [📋 User Needs, Benchmarking, and Requirements](./user-needs-benchmarking-requirements.md)  
 - [💡 Design Ideation](./design-ideation.md)  
@@ -41,19 +38,7 @@ Navigate through the links below to explore our project journey, from ideation t
 
 ## 🎥 **Presentation**  
 📺 Watch our project presentation on YouTube:  
-[![YouTube Presentation](https://img.shields.io/badge/YouTube-Watch-blue?logo=youtube&logoColor=white)](https://www.youtube.com/watch?v=YOUR_VIDEO_ID)  
-
----
-
-## 🛠️ **About This Repository**  
-This repository contains all the essential documents for the **Drone Launchpad** project. Each section above links to a page that dives deep into our planning, decision-making, and design process.  
-
----
-
-### ✨ **Project Highlights**  
-- **Innovative Design:** Built for seamless drone operations  
-- **Custom Hardware & Software:** Proposals tailored for efficiency  
-- **Collaborative Development:** Meet the minds behind the project on our [Team Organization](./team-organization.md) page  
+[![YouTube Presentation](https://img.shields.io/badge/YouTube-Watch-blue?logo=youtube&logoColor=white)](https://www.youtube.com/watch?v=iCSMr5S1n1Q)  
 
 ---
 
