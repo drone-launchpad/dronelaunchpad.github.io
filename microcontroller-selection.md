@@ -19,8 +19,7 @@ Provide a brief introduction to this section. Explain what this page covers and 
 ---
 
 ## 🔗 **References & Links**  
-- [Link](https://docs.google.com/document/d/10NtJe0ZnbYK09kdUJojoj2La8clRYK2M/edit)  
-- Cite external sources or internal project pages as needed.  
+- [Link](https://docs.google.com/document/d/10NtJe0ZnbYK09kdUJojoj2La8clRYK2M/edit) 
 
 ---
 

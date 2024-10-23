@@ -16,8 +16,7 @@ This is the bill of materials for the entire team. It has the subsystems broken 
 ---
 
 ## 🔗 **References & Links**  
-- [Link to Bill of Material](https://docs.google.com/spreadsheets/d/1E694PXnCqo_rhAm-UmbHUEZWXKCB4VisozdUPeEv6-w/edit?gid=0#gid=0)  
-- Cite external sources or internal project pages as needed.  
+- [Link to Bill of Material](https://docs.google.com/spreadsheets/d/1E694PXnCqo_rhAm-UmbHUEZWXKCB4VisozdUPeEv6-w/edit?gid=0#gid=0)
 
 ---
 

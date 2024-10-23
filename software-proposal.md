@@ -16,8 +16,7 @@ The software is geared to utilize the temperature sensor and hall effect sensor 
 ---
 
 ## 🔗 **References & Links**  
-- [Link](https://app.diagrams.net/#G1xlFvtV_mzvnqlJUobaKzlR6I_mj8l-aW#%7B%22pageId%22%3A%22e7e014a7-5840-1c2e-5031-d8a46d1fe8dd%22%7D)  
-- Cite external sources or internal project pages as needed.  
+- [Link](https://app.diagrams.net/#G1xlFvtV_mzvnqlJUobaKzlR6I_mj8l-aW#%7B%22pageId%22%3A%22e7e014a7-5840-1c2e-5031-d8a46d1fe8dd%22%7D)
 
 ---
 
