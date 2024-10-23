@@ -1,5 +1,5 @@
 # 📝 **Design Ideation**
-
+The initial design ideation had to be re
 ---
 
 ## 📖 **Selected Design**  
