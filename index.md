@@ -42,8 +42,8 @@ Welcome to the **Drone Launchpad** project. The goal of the Drone Launchpad is t
 
 ---
 
-## 🎥 **Presentation**  
-📺 Watch our project presentation on YouTube:  
+### 📺 Watch our project presentation on YouTube:
+  
 [![YouTube Presentation](https://img.shields.io/badge/YouTube-Watch-blue?logo=youtube&logoColor=white)](https://www.youtube.com/watch?v=iCSMr5S1n1Q)  
 
 ---
