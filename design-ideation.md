@@ -10,7 +10,6 @@ The team came up with a concept different from the ones from the previous ideati
 ## 📊 **Related Diagrams and Charts**  
 If there are relevant diagrams or charts, add a placeholder or instructions for embedding images below:
 
-# **Selected Design**
 ![selected design](https://github.com/omniscient-wizardry/omniscient-wizardy.github.io/blob/main/Images/Selected%20Design.png)
 ![ideals](https://github.com/omniscient-wizardry/omniscient-wizardy.github.io/blob/main/Images/Ideals.png)
 
