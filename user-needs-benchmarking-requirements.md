@@ -10,14 +10,23 @@ The problem we chose to address is that the environment can change unpredictably
 ## 📊 **Related Diagrams and Charts**  
 If there are relevant diagrams or charts, add a placeholder or instructions for embedding images below:
 
-```markdown
-![Diagram Title](./images/diagram-example.png)
-```
+---
+![Diagram Title](./image/314-User-needs-benchmarking-01.png)
+![Diagram Title](./image/314-User-needs-benchmarking-02.png)
+![Diagram Title](./image/314-User-needs-benchmarking-03.png)
+![Diagram Title](./image/314-User-needs-benchmarking-04.png)
+![Diagram Title](./image/314-User-needs-benchmarking-05.png)
+![Diagram Title](./image/314-User-needs-benchmarking-06.png)
+![Diagram Title](./image/314-User-needs-benchmarking-07.png)
+![Diagram Title](./image/314-User-needs-benchmarking-08.png)
+![Diagram Title](./image/314-User-needs-benchmarking-09.png)
+![Diagram Title](./image/314-User-needs-benchmarking-10.png)
+---
 
 ---
 
 ## 🔗 **References & Links**  
-- [Link to any relevant document](#)  
+- [Link](https://docs.google.com/document/d/1v_SPvbiVTcpr9cm0a-lNTNSYukJGjEQE0ewYOTt53pA/edit?tab=t.0)  
 - Cite external sources or internal project pages as needed.  
 
 ---
