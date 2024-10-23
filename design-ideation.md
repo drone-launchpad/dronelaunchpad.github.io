@@ -15,4 +15,3 @@ Instead of going with an initial device idea, we decided to go with a device tha
 
 ## 🔄 **Back to Main Page**  
 [⬅️ Return to Home](./index.md)
-```

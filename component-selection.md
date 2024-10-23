@@ -32,4 +32,3 @@ The power budget for the project is below, it helps determine the total power an
 
 ## 🔄 **Back to Main Page**  
 [⬅️ Return to Home](./index.md)
-```

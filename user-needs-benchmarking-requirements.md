@@ -29,14 +29,6 @@ From surveying base requirements:
 ![Diagram Title](./image/314-User-needs-benchmarking-10.png)
 ---
 
----
-
-## 🔗 **References & Links**  
-- [Link](https://docs.google.com/document/d/1v_SPvbiVTcpr9cm0a-lNTNSYukJGjEQE0ewYOTt53pA/edit?tab=t.0)  
-- Cite external sources or internal project pages as needed.  
-
----
 
 ## 🔄 **Back to Main Page**  
 [⬅️ Return to Home](./index.md)
-```

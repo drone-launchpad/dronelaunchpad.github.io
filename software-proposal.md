@@ -23,4 +23,3 @@ The software is geared to utilize the temperature sensor and hall effect sensor 
 
 ## 🔄 **Back to Main Page**  
 [⬅️ Return to Home](./index.md)
-```
