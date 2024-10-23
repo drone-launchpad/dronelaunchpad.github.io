@@ -7,9 +7,13 @@ The problem we chose to address is that the environment can change unpredictably
 
 ---
 
-## 📊 **Related Diagrams and Charts**  
-If there are relevant diagrams or charts, add a placeholder or instructions for embedding images below:
+## 📊 **Baseline Requirments**  
+From surveying base requirements: 
+- Notify the user of temperature outside of 32 degrees to 104 degrees.
+- Notify the user that 10-15 mph wind speeds are potentially hazardous and that over 20 mph means no fly.
+- Able to house various hobbyist drone sizes.
 
+  
 ---
 ![Diagram Title](./image/314-User-needs-benchmarking-01.png)
 ![Diagram Title](./image/314-User-needs-benchmarking-02.png)
