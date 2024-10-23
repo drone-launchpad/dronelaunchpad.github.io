@@ -323,7 +323,7 @@ Instead of going with an initial device idea, we decided to go with a device tha
 | Gwen Eging | gubb_gubb | geging@asu.edu |  
 | Houyu Zhang | alpaca_z | hzhan322@asu.edu |  
 | Mudit Lal | muditlal | mlal4@asu.edu |  
-| Sean-Michael Hall | seanmikeall | shall58@asu.edu |  
+| Kevin Ordorica | Kevin Ordorica | kordoric@asu.edu |  
 
 Our team’s primary communication method is through Discord, with text messages as a backup. All correspondence with the professor will be done in person or via email, with the rest of the team CC’d.
 
@@ -339,7 +339,7 @@ Meeting reminders will be sent via Google Calendar and Discord.
 | Mudit Lal | Project Monitor |  
 | Houyu Zhang | Meeting Leader |  
 | Gwen Eging | Assignment Leader |  
-| Sean-Michael Hall | Meeting Recorder |  
+| Kevin Ordorica | Meeting Recorder |  
 
 Roles may change upon request, and team members are encouraged to communicate if they need assistance.
 
