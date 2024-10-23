@@ -25,7 +25,8 @@ Welcome to the **Drone Launchpad** project. The goal of the Drone Launchpad is t
 ---
 
 ## 🛠️ Project Documentation  
-- [👥 Team Organization](./team-organization.md)  
+- [👥 Team Organization](./team-organization.md)
+    - Problem Statement
 - [📋 User Needs, Benchmarking, and Requirements](./user-needs-benchmarking-requirements.md)  
 - [💡 Design Ideation](./design-ideation.md)  
 - [📊 Block Diagram](./block-diagram.md)  
