@@ -35,7 +35,8 @@ Welcome to the **Drone Launchpad** project. The goal of the Drone Launchpad is t
 - [🔧 Component Selection](./component-selection.md)
   - Power Budget
 - [⚙️ Microcontroller Selection](./microcontroller-selection.md)  
-- [🖥️ Hardware Proposal](./hardware-proposal.md)  
+- [🖥️ Hardware Proposal](./hardware-proposal.md)
+  - Bill of Materials
 - [💻 Software Proposal](./software-proposal.md)
   - System Code 
 
