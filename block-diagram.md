@@ -18,7 +18,7 @@ If there are relevant diagrams or charts, add a placeholder or instructions for 
 ---
 
 ## 🔗 **References & Links**  
-- [Link to any relevant document](#)  
+- [https://github.com/drone-launchpad/dronelaunchpad.github.io/blob/main/image/block-diagram.png?raw=true](#)  
 - Cite external sources or internal project pages as needed.  
 
 ---
