@@ -12,6 +12,7 @@ If there are relevant diagrams or charts, add a placeholder or instructions for 
 
 ```markdown
 ![Diagram Title](./images/diagram-example.png)
+![image](/image/block diagram.png)
 ```
 
 ---
