@@ -3,7 +3,9 @@
 ---
 
 ## 📖 **Overview**  
-Provide a brief introduction to this section. Explain what this page covers and how it fits into the overall project.  
+The team looked through multiple components that would satisfy the project's design requirements. There are numerous component options per subsystem and the pros and cons of each were evaluated. 
+
+The power budget for the project is below, it helps determine the total power and current needed to operate the product. 
 
 ---
 
