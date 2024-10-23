@@ -3,7 +3,7 @@
 ---
 
 ## 📖 **Overview**  
-Provide a brief introduction to this section. Explain what this page covers and how it fits into the overall project.  
+This is the bill of materials for the entire team. It has the subsystems broken down to allow for easy identification. 
 
 ---
 
