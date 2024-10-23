@@ -8,7 +8,6 @@ The software is geared to utilize the temperature sensor and hall effect sensor 
 ---
 
 ## 📊 **Related Diagrams and Charts**  
-If there are relevant diagrams or charts, add a placeholder or instructions for embedding images below:
 
 ---
 ![Diagram Title](./image/Software-Proposal1.png)
