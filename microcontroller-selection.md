@@ -8,7 +8,6 @@ Provide a brief introduction to this section. Explain what this page covers and 
 ---
 
 ## 📊 **Related Diagrams and Charts**  
-If there are relevant diagrams or charts, add a placeholder or instructions for embedding images below:
 
 ---
 ![Diagram Title](./image/microcontroller-selection-table1.png)
