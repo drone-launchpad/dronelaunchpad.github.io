@@ -10,6 +10,7 @@ This is the bill of materials for the entire team. It has the subsystems broken 
 ## 📊 **Related Diagrams and Charts**  
 
 ---
+![Diagram Title](./image/schematics.png)
 ![Diagram Title](./image/BillofMaterials.png)
 ---
 
