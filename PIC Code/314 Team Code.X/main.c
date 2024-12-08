@@ -1,3 +1,4 @@
+
 //file inclusions
 #include "mcc_generated_files/mcc.h"
 #include "mcc_generated_files/examples/i2c2_master_example.h"
@@ -44,8 +45,6 @@ uint8_t ReadTemperature (void)
     curr_temp = I2C2_Read1ByteRegister( address, 0x00);
     return curr_temp;
 }
-
-//temperature sensor function to
 
 //timer callback function for reasonable numbers
 void timer_callback(void)
