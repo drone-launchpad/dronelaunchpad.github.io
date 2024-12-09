@@ -1,4 +1,4 @@
-# 📝 **Design Ideation**
+#  **Design Ideation**
 ---
 The initial design ideation was when our team was going in a different direction. Once we understood the project better we decided to redesign the idea. 
 ## 📖 **Selected Design**  
@@ -13,5 +13,5 @@ Instead of going with an initial device idea, we decided to go with a device tha
 
 ---
 
-## 🔄 **Back to Main Page**  
-[⬅️ Return to Home](./index.md)
+##  **Back to Main Page**  
+[ Return to Home](./index.md)
