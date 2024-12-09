@@ -1,62 +1,163 @@
-#include <xc.h>                   // Include processor files
-#include "mcc_generated_files/mcc.h"  // Include MCC-generated headers for setup
-#include <stdio.h>                // For printf support
-#include <stdlib.h>               // For rand() and srand()
-#include <time.h>                 // For time()
+#include "mcc_generated_files/mcc.h"
+#include "mcc_generated_files/examples/i2c2_master_example.h"
+#include "mcc_generated_files/i2c2_master.h"
 
-// **Mock Code**: The values sent here are not from real sensors.
-// They are randomly generated for demonstration purposes.
+#include <stdio.h>
+#include <stdint.h>
+#include <stdbool.h>
+#include <string.h>
 
-void send_mqtt_data_points(void);
+// ============================
+// I2C Sensor Addresses
+// ============================
+#define TEMP_SENSOR_ADDRESS  0b1001100   // Temp sensor address
+#define HALL_SLAVE_ADDRESS   0x36        // Hall sensor address
+#define HALL_RAW_ANGLE       0x0E
+#define HALL_RAW_ANGLE_1     0x0F
 
-void main(void) {
-    // Initialize the device
-    SYSTEM_Initialize();
+// ============================
+// Motor Control Commands (SPI)
+// ============================
+uint8_t fwd  = 0b11101111;  // Roll platform out
+uint8_t bkwd = 0b11101101;  // Roll platform in
 
-    // Seed the random number generator
-    // **Mock Code**: Using this since Kevin never gave me the final code for the sensor to integrate this on that.
-    srand(123456);
+// ============================
+// Global Variables
+// ============================
+volatile uint32_t time_ms = 0;
+int temp_value = 0;               // Raw temperature reading (int)
+uint8_t hall_angle = 0;           
+uint8_t hall_angle_1 = 0;         
+uint16_t hall_angle_combined = 0; 
 
-    // Enable global and peripheral interrupts
-    INTERRUPT_GlobalInterruptEnable();
-    INTERRUPT_PeripheralInterruptEnable();
+bool taken_off = false; // Tracks if platform is rolled out
 
-    // **Mock Code**: Main loop that continuously sends mock data
-    while (1) {
-        // Send mock MQTT data points periodically
-        send_mqtt_data_points();
+// For demonstration, we are mocking wind speed.
+// In a real scenario, integrate a wind sensor reading or use actual data.
+float mock_wind_speed = 5.0f; // <10 mph considered safe
 
-        // **Mock Code**: Delay for 2 seconds before sending the next set of data
-        __delay_ms(2000);
+// ============================
+// Function Prototypes
+// ============================
+uint8_t ReadTemperature(void);
+void ReadHallSensor(void);
+void timer_callback(void);
+void RollPlatformOut(void);
+void RollPlatformIn(void);
+void send_data_to_NodeMCU(float temp, float hall, int ready_flag);
+
+// ============================
+// Function Implementations
+// ============================
+
+// Read Temperature Sensor Data
+uint8_t ReadTemperature(void) {
+    return I2C2_Read1ByteRegister(TEMP_SENSOR_ADDRESS, 0x00);
+}
+
+// Read Hall Sensor Data
+void ReadHallSensor(void) {
+    hall_angle = I2C2_Read1ByteRegister(HALL_SLAVE_ADDRESS, HALL_RAW_ANGLE);
+    hall_angle_1 = I2C2_Read1ByteRegister(HALL_SLAVE_ADDRESS, HALL_RAW_ANGLE_1);
+    hall_angle_combined = ((uint16_t)(hall_angle << 8) | hall_angle_1);
+}
+
+void timer_callback(void) {
+    time_ms++;
+    if (time_ms >= 1000) {
+        // Read sensors once per second
+        temp_value = (int)ReadTemperature();
+        ReadHallSensor();
+        time_ms -= 1000;
     }
 }
 
-void send_mqtt_data_points(void) {
-    // **Mock Code**: Generate mock temperature and hall sensor data
-    // Temperature mock range: 20.0 to 35.0 degrees
-    // Hall sensor mock range: 0.0 to 50.0
-    // Ready flag: toggles between 0 and 1 each time data is sent
-    
-    static int ready_flag = 0; // **Mock Code**: toggles each send
-    float temp = 20.0f + (float)(rand() % 150) / 10.0f;   // 20.0 to 34.9 approx
-    float hall = (float)(rand() % 500) / 10.0f;           // 0.0 to 49.9 approx
-    
-    // Toggle the ready_flag each time
-    ready_flag = !ready_flag;
+// Motor control to roll platform out (forward)
+void RollPlatformOut(void) {
+    CSN_SetLow();
+    SPI1_ExchangeByte(fwd);
+    CSN_SetHigh();
+}
 
-    char buffer[64]; // Buffer for formatted data
+// Motor control to roll platform in (backward)
+void RollPlatformIn(void) {
+    CSN_SetLow();
+    SPI1_ExchangeByte(bkwd);
+    CSN_SetHigh();
+}
 
-    // **Mock Code**: Format the string as "temp hall ready_flag"
-    // The NodeMCU expects: temp_value hall_value ready_flag
-    // Example: "23.45 12.34 1"
+// Send data to NodeMCU in the format: "temp hall ready_flag"
+// NodeMCU code expects these three values separated by spaces, 
+// with temp and hall as floats, and ready_flag as int (0 or 1).
+void send_data_to_NodeMCU(float temp, float hall, int ready_flag) {
+    char buffer[64];
     sprintf(buffer, "%.2f %.2f %d", temp, hall, ready_flag);
-
-    // Transmit the formatted string via UART (to NodeMCU)
-    // **Mock Code**: Just prints out the string over UART
     printf("%s\r\n", buffer);
+}
 
-    // **Mock Code**: Flash an LED to indicate data was sent
-    LED_0_SetHigh();
-    __delay_ms(150);
-    LED_0_SetLow();
+// ============================
+// Main Application with Diagram Logic
+// ============================
+void main(void) {
+    // Initialize system
+    SYSTEM_Initialize();
+    I2C2_Initialize();
+    EUSART2_Initialize();
+    SPI1_Initialize();
+    SPI1_Open(SPI1_DEFAULT);
+
+    // Enable interrupts
+    INTERRUPT_GlobalInterruptEnable();
+    INTERRUPT_PeripheralInterruptEnable();
+
+    // Set timer callback
+    TMR2_SetInterruptHandler(timer_callback);
+    TMR2_StartTimer();
+
+    // Initial LED blink test
+    LED_Toggle();
+    __delay_ms(1000);
+    LED_Toggle();
+    __delay_ms(1000);
+
+    while (1) {
+        // Determine safety conditions
+        // Temp_Safe if 32 < Temp < 104
+        // Wind_Safe if Wind Speed < 10 mph
+        bool Temp_Safe = (temp_value > 32 && temp_value < 104);
+        bool Wind_Safe = (mock_wind_speed < 10.0f);
+
+        // If both safe:
+        // If platform is not out, roll out and set taken_off = true
+        // Else if unsafe, roll in and set taken_off = false
+        if (Temp_Safe && Wind_Safe) {
+            if (!taken_off) {
+                RollPlatformOut();
+                taken_off = true;
+            }
+        } else {
+            if (taken_off) {
+                RollPlatformIn();
+                taken_off = false;
+            }
+        }
+
+        // Convert raw temp to float
+        float temperature_float = (float)temp_value;
+        // Convert hall angle to a meaningful float value
+        // Example: If 1024 counts = 90 degrees, angle in degrees:
+        float hall_angle_degrees = (hall_angle_combined * 90.0f / 1024.0f);
+
+        // ready_flag will reflect 'taken_off' state
+        int ready_flag = taken_off ? 1 : 0;
+
+        // Send data to NodeMCU
+        send_data_to_NodeMCU(temperature_float, hall_angle_degrees, ready_flag);
+
+        // Blink LED to show loop running
+        LED_Toggle();
+        __delay_ms(2000); // Adjust timing as needed
+        LED_Toggle();
+        __delay_ms(200);
+    }
 }
