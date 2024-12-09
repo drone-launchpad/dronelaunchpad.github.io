@@ -1,4 +1,4 @@
-# 📝 **Team Organization**
+#  **Team Organization**
 
 ---
 
@@ -296,23 +296,21 @@ Instead of going with an initial device idea, we decided to go with a device tha
 - [x] Software Proposal  
 - [x] Subsystem Design  
 - [x] Hardware Proposal  
-- [ ] Hardware Implementation V1  
-- [ ] CATME 2  
-- [ ] Team Checkpoint 2 (Presentation)  
-- [ ] Team System Prototype  
-- [ ] Subsystem Verification  
-- [ ] Team Checkpoint 2 (Materials)  
-- [ ] Innovation Showcase Submission  
-- [ ] Team System Prototype  
-- [ ] Hardware Implementation V2  
-- [ ] Team System Verification Part 1  
-- [ ] Team Protocol and Controller Design  
-- [ ] Innovation Showcase Poster Submission  
-- [ ] Software Implementation  
-- [ ] System Verification Final  
-- [ ] Team Checkpoint 3 (Demonstration)  
-- [ ] CATME 3  
-- [ ] Team Checkpoint 3 (Report)
+- [x] Hardware Implementation V1  
+- [x] CATME 2  
+- [x] Team Checkpoint 2 (Presentation)  
+- [x] Team System Prototype  
+- [x] Subsystem Verification  
+- [x] Team Checkpoint 2 (Materials)   
+- [x] Team System Prototype  
+- [x] Hardware Implementation V2  
+- [x] Team System Verification Part 1  
+- [x] Team Protocol and Controller Design   
+- [x] Software Implementation  
+- [x] System Verification Final  
+- [x] Team Checkpoint 3 (Demonstration)  
+- [x] CATME 3  
+- [x] Team Checkpoint 3 (Report)
 
 ---
 
@@ -454,5 +452,5 @@ Selected Product
 
 ---
 
-## 🔄 **Back to Main Page**  
-[⬅️ Return to Home](./index.md)
+##  **Back to Main Page**  
+[ Return to Home](./index.md)
