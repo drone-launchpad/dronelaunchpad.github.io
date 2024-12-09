@@ -30,7 +30,7 @@ The **Drone Launchpad** is an innovative solution designed to facilitate safe an
 ##  **Team Members**
 - **Gwen Eging** - Assignment Leader  
 - **Mudit Lal** - Project Monitor 
-- **Houyu Zhang** - Meeting Leader  
+- **Houyu Zhang** - Inactive 
 - **Kevin Ordorica** - Meeting Recorder
 
 ##  **License**
