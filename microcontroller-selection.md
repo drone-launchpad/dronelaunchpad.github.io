@@ -1,13 +1,13 @@
-# 📝 **Microcontroller Selection**
+#  **Microcontroller Selection**
 
 ---
 
-## 📖 **Overview**  
+##  **Overview**  
 
 
 ---
 
-## 📊 **Related Diagrams and Charts**  
+##  **Related Diagrams and Charts**  
 
 ---
 ![Diagram Title](./image/microcontroller-selection-table1.png)
@@ -18,10 +18,10 @@
 
 ---
 
-## 🔗 **References & Links**  
+##  **References & Links**  
 - [Link](https://docs.google.com/document/d/10NtJe0ZnbYK09kdUJojoj2La8clRYK2M/edit) 
 
 ---
 
-## 🔄 **Back to Main Page**  
-[⬅️ Return to Home](./index.md)
+##  **Back to Main Page**  
+[ Return to Home](./index.md)
