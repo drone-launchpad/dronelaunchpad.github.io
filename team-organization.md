@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 # **Team Organization**
+=======
+#  **Team Organization**
+>>>>>>> 09b1c9029494bcdaf3b739f88ee7d3e87805d6f8
 
 ---
 
@@ -319,6 +323,7 @@ Instead of going with an initial device idea, we decided to go with a device tha
 - [x] Team Checkpoint 2 (Presentation)  
 - [x] Team System Prototype  
 - [x] Subsystem Verification  
+<<<<<<< HEAD
 - [x] Team Checkpoint 2 (Materials)  
 - [x] Innovation Showcase Submission  
 - [x] Team System Prototype  
@@ -326,6 +331,13 @@ Instead of going with an initial device idea, we decided to go with a device tha
 - [x] Team System Verification Part 1  
 - [x] Team Protocol and Controller Design  
 - [x] Innovation Showcase Poster Submission  
+=======
+- [x] Team Checkpoint 2 (Materials)   
+- [x] Team System Prototype  
+- [x] Hardware Implementation V2  
+- [x] Team System Verification Part 1  
+- [x] Team Protocol and Controller Design   
+>>>>>>> 09b1c9029494bcdaf3b739f88ee7d3e87805d6f8
 - [x] Software Implementation  
 - [x] System Verification Final  
 - [x] Team Checkpoint 3 (Demonstration)  
@@ -370,5 +382,5 @@ Assignments will be coordinated through Discord, and updates will be shared in c
 Conflicts will be resolved collectively, with team members voicing concerns and working towards a compromise.
 ---
 
-## 🔄 **Back to Main Page**  
-[⬅️ Return to Home](./index.md)
+##  **Back to Main Page**  
+[ Return to Home](./index.md)

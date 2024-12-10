@@ -1,7 +1,14 @@
+<<<<<<< HEAD
 # **Design Ideation**
 ---
 The initial design ideation was when our team was going in a different direction. Once we understood the project better we decided to redesign the idea. 
 ## **Selected Design**  
+=======
+#  **Design Ideation**
+---
+The initial design ideation was when our team was going in a different direction. Once we understood the project better we decided to redesign the idea. 
+##  **Selected Design**  
+>>>>>>> 09b1c9029494bcdaf3b739f88ee7d3e87805d6f8
 The team came up with a concept different from the ones from the previous ideation. After choosing the sensors and components needed to fulfill project requirements the team realized the initial concept was not going to work. Initially, we wanted to make a device that was whimsical, and able to be taken hiking to give real-time data and predictions. 
 
 ---
@@ -13,5 +20,10 @@ Instead of going with an initial device idea, we decided to go with a device tha
 
 ---
 
+<<<<<<< HEAD
 ## **Back to Main Page**  
 [⬅️ Return to Home](./index.md)
+=======
+##  **Back to Main Page**  
+[ Return to Home](./index.md)
+>>>>>>> 09b1c9029494bcdaf3b739f88ee7d3e87805d6f8
