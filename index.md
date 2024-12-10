@@ -1,7 +1,7 @@
 # **The Drone Launchpad**  
 ---
 
-10/23/2024  
+12/9/2024  
 **Arizona State University**  
 *EGR 314 \- 81059*  
 Prof. Kevin Nichols  
@@ -14,8 +14,9 @@ Fall 2024
 ## **Team Members**
 - **Gwen Eging** - Assignment Leader  
 - **Mudit Lal** - Project Monitor 
-- **Houyu Zhang** - Meeting Leader  
-- **Kevin Ordorica** - Meeting Recorder
+- **Kevin Ordorica** - Meeting Recorder-
+- **Houyu Zhang** - INACTIVE  
+
 
 ---
 
@@ -42,7 +43,7 @@ Welcome to the **Drone Launchpad** project. The goal of the Drone Launchpad is t
 
 ---
 
-### Watch our project presentation on YouTube:
+### Watch our project presentation 1 on YouTube:
   
 [![YouTube Presentation](https://img.shields.io/badge/YouTube-Watch-blue?logo=youtube&logoColor=white)](https://www.youtube.com/watch?v=iCSMr5S1n1Q)  
 
